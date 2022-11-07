@@ -6,14 +6,34 @@
 header {
     background-color: red;
     color: white;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
     text-align: center;
 }
 
+.pixel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark {
+    background-color: black;
+}
+
 #canvas {
-    width: 960px;
-    height: 960px;
-    border: 3px solid black
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    height: 720px;
+    border: 3px solid black;
+    margin-top: 10px;
 }
