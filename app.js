@@ -13,12 +13,12 @@ function createCanvas(pixelSize)  {
   }
 };
 
-createCanvas(100);
+createCanvas(16);
 
 const pixel = document.querySelectorAll('.pixel');
 
 pixel.forEach((pixel) => {
-  pixel.addEventListener('mouseover', () => {
+  pixel.addEventListener('mouseenter', () => {
     pixel.classList.add("dark");
   });
 });
