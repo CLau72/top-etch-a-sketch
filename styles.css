@@ -17,11 +17,21 @@ main {
 
 footer {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 
 h1 {
     text-align: center;
+}
+
+button {
+    padding: 5px;
+}
+
+.ui {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .pixel {
